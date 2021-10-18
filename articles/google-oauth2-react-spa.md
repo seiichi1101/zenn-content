@@ -1,5 +1,5 @@
 ---
-title: "Google OAuth2.0を使ってGoogle Tasks APIを呼びすReact SPAを作ってみた"
+title: "Google OAuth2.0を使ってGoogle Tasks APIを呼び出すReact SPAを作ってみた"
 emoji: "🐫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react","typescript","oauth"]
