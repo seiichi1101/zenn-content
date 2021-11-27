@@ -3,7 +3,7 @@ title: "AWS Copilot CLIでECSにgRPCサーバーをデプロイできるよう�
 emoji: "🐫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["copilot","grpc","go"]
-published: false
+published: true
 ---
 
 こちらの[v1.13.0リリース](https://github.com/aws/copilot-cli/releases)にてCopilotでECSにgRPCサーバーをデプロイできるようになりました。
