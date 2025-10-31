@@ -3,7 +3,7 @@ title: "アクセスコントロールSaaS Permit.io でWeb APIのアクセス�
 emoji: "🙌"
 type: "tech"
 topics: ["acl", "permitio", "authorization", "accessControl"]
-published: false
+published: true
 ---
 
 
