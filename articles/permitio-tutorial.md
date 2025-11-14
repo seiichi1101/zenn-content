@@ -2,7 +2,7 @@
 title: "アクセスコントロールSaaS Permit.io でWeb APIのアクセス制御を実装してみた"
 emoji: "🙌"
 type: "tech"
-topics: ["acl", "permitio", "authorization", "accessControl"]
+topics: ["accesscontrol", "permitio", "authorization"]
 published: true
 ---
 
