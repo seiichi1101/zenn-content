@@ -2,13 +2,13 @@
 title: "Permit.ioでABAC(Attribute-Based Access Control)をやってみた"
 emoji: "📑"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["accesscontrol", "permitio", "authorization"]
+topics: ["accesscontrol", "permitio", "authorization", "abac"]
 published: true
 ---
 
 皆さん、こんにちは。
 
-今回は以前紹介した [Permit.io で Web API のアクセス制御を実装してみた](https://zenn.dev/seiichi1101/articles/95f04cd5668718) の続編として、Permit.io で **ABAC(Attribute-Based Access Control)** を実装してみた内容を共有します。
+今回は以前紹介した [Permit.io で Web API のアクセス制御を実装してみた](https://zenn.dev/seiichi1101/articles/permitio-tutorial) の続編として、Permit.io で **ABAC(Attribute-Based Access Control)** を実装してみた内容を共有します。
 
 ## ABAC (Attribute-Based Access Control)とは？
 
@@ -222,7 +222,7 @@ User と Resource の属性はクライアント側から渡して、バリデ�
 GitHub リポジトリはこちらです。: https://github.com/seiichi1101/permitio-hono/tree/abac
 
 ABAC を利用するためには、[PDP](https://docs.permit.io/concepts/pdp/overview/)（Policy Decision Point）と呼ばれるサーバーを経由して Permit.io にアクセスする必要があります。PDP はアクセス制御のポリシー判定を行うエンジンで、クライアントアプリケーションと Permit.io クラウド間の橋渡し役を担います。
-起動方法はいくつかあるのですが、今回はローカルの Docker コンテナで起動する方法で行います。
+起動方法はいくつかあるのですが、今回利用する ABAC の機能は Cloud PDP では対応していないので、ローカルの Docker コンテナで起動する方法で行います。
 
 - docker compose の設定
 
