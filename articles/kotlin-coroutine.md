@@ -192,7 +192,7 @@ sequenceDiagram
     participant Caller as 呼び出し元
     participant hello as hello()<br/>(ContinuationImpl)
     participant delay as delay()
-    box LightGray Background
+    box rgba(0,0,0,0) Background
         participant unknown as ???
     end
 
@@ -324,7 +324,7 @@ sequenceDiagram
     participant Caller as 呼び出し元
     participant hello as hello()<br/>(ContinuationImpl)
     participant delay as delay()
-    box LightGray Background
+    box rgba(0,0,0,0) Background
         participant eventLoop as EventLoop<br/>(DefaultDelay)
         participant unknown as ???
     end
@@ -461,7 +461,7 @@ sequenceDiagram
     participant Caller as 呼び出し元
     participant hello as hello()<br/>(ContinuationImpl)
     participant delay as delay()
-   box LightGray Background
+   box rgba(0,0,0,0) Background
         participant eventLoop as EventLoop<br/>(DefaultDelay)
         participant scheduler as CoroutineScheduler
         participant worker as Worker Thread
